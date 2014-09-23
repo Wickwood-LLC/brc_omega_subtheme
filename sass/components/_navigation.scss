@@ -1,0 +1,37 @@
+/* Tabs Styles*/
+.tabs {
+	a {
+  	background-color: transparent;
+  	text-decoration: none;
+  	&.active {background-color: transparent;}
+  	&:hover {background-color: transparent;}
+  	&:focus {background-color: transparent;}
+  	}
+}
+
+/* Primary Tabs */
+.tabs--primary {
+  margin-bottom: 0em;
+  border-bottom: none;
+  a {
+  	padding: 0em 0em;
+	}
+	&.links--inline {
+		li {
+			a {
+				color: #FFF;
+				&:hover {color: #FFF;}
+				&:focus {color: #FFF;}
+			}
+			@include button(simple, #4294f0);
+		}
+	}
+}
+
+/* Secondary Tabs */
+.tabs--secondary {
+	a {
+  padding: 0em 0em;
+  margin: 0em 0;
+	}
+}
