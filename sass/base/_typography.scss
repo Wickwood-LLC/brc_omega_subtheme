@@ -1,0 +1,22 @@
+//Import Google Font
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+#site-name a{
+	font-family: $font-header;
+	font-size: 68px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: $font-header-color;
+	white-space: nowrap;
+	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
+}
+#site-slogan {
+	font-size: 17px;
+	font-family: $font-slogan;
+	color: $font-slogan-color;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
