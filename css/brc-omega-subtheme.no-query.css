@@ -6,7 +6,7 @@
  * https://github.com/necolas/normalize.css
  */
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/base\/_1html\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_1html\.scss}line{font-family:\0000333}}
 html {
   /* 1 */
   background-repeat: no-repeat;
@@ -17,55 +17,86 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\000031}}
+.l-page {
+  max-width: 80%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\000036}}
+.l-branding {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
-#site-name a {
-  font-family: "Berkshire Swash", Arial, "Arial Unicode MS", Helvetica, Sans-Serif;
-  font-size: 68px;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  color: white;
-  white-space: nowrap;
-  text-shadow: 2.8px 2.8px 4px rgba(23, 23, 23, 0.82); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
+.site-name {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000311}}
+  .site-name a {
+    font-family: "Berkshire Swash", Arial, "Arial Unicode MS", Helvetica, Sans-Serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 0;
+    color: white;
+    text-shadow: 2.8px 2.8px 4px rgba(23, 23, 23, 0.82); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000315}}
-#site-slogan {
-  font-size: 17px;
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000332}}
+.site-slogan {
+  font-size: 12px;
   font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
   color: #D0ECF6;
-  text-decoration: none;
+  line-height: 1.5;
+  text-align: center;
   padding: 0;
   margin: 0; }
 
 /* Tabs Styles*/
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000033}}
 .tabs a {
   background-color: transparent;
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000036}}
   .tabs a.active {
     background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
   .tabs a:hover {
     background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000038}}
   .tabs a:focus {
     background-color: transparent; }
 
 /* Primary Tabs */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000313}}
 .tabs--primary {
   margin-bottom: 0em;
   border-bottom: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000316}}
   .tabs--primary a {
     padding: 0em 0em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
   .tabs--primary.links--inline li {
     border: 1px solid #076fe4;
     border-radius: 3px;
@@ -81,13 +112,13 @@ img, media {
     text-decoration: none;
     text-shadow: 0 1px 0 #0065d6;
     background-clip: padding-box; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
     .tabs--primary.links--inline li a {
       color: #FFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000323}}
       .tabs--primary.links--inline li a:hover {
         color: #FFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000324}}
       .tabs--primary.links--inline li a:focus {
         color: #FFF; }
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/bourbon-4\.0\.2\/app\/assets\/stylesheets\/addons\/_button\.scss}line{font-family:\00003131}}
@@ -107,7 +138,7 @@ img, media {
       cursor: not-allowed; }
 
 /* Secondary Tabs */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/blueribbon\/sites\/all\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
 .tabs--secondary a {
   padding: 0em 0em;
   margin: 0em 0; }

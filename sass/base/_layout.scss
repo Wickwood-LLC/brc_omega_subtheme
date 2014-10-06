@@ -1,4 +1,10 @@
-#page {
+.l-page {
 	max-width: 80%;
 	margin: 0 auto;
+}
+
+.l-branding {
+	@include display(flex);
+	@include justify-content(center);
+	@include flex-flow(row wrap);
 }

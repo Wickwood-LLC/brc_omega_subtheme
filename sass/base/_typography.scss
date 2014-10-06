@@ -1,22 +1,51 @@
 //Import Google Font
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 
-#site-name a{
-	font-family: $font-header;
-	font-size: 68px;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 0;
-	margin: 0;
-	color: $font-header-color;
-	white-space: nowrap;
-	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
+.site-name {
+	text-align: center;
+
+	@include breakpoint(960px){
+		margin: 0;
+	}
+
+	a {
+		font-family: $font-header;
+		font-size: 44px;
+		font-weight: bold;
+		text-decoration: none;
+		line-height: 1.5;
+		padding: 0;
+		color: $font-header-color;
+		@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
+
+		@include breakpoint(320px){
+			font-size: 56px;
+		}
+		@include breakpoint(480px){
+			font-size: 68px;
+		}
+		@include breakpoint(960px){
+			font-size: 72px;
+		}
+	}
 }
-#site-slogan {
-	font-size: 17px;
+.site-slogan {
+	font-size: 12px;
 	font-family: $font-slogan;
+	font-weight: normal;
 	color: $font-slogan-color;
-	text-decoration: none;
+	line-height: 1.5;
+	text-align: center;
 	padding: 0;
 	margin: 0;
+
+	@include breakpoint(320px){
+		font-size: 14px;
+	}
+	@include breakpoint(480px){
+		font-size: 16px;
+	}
+	@include breakpoint(960px){
+		font-size: 18px;
+	}
 }
