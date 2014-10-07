@@ -6,7 +6,7 @@
  * https://github.com/necolas/normalize.css
  */
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_1html\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_html\.scss}line{font-family:\0000333}}
 html {
   /* 1 */
   background-repeat: no-repeat;
@@ -18,11 +18,12 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\000031}}
-.l-page {
+.l-header,
+.l-main {
   max-width: 80%;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\000037}}
 .l-branding {
   display: -webkit-box;
   display: -moz-box;
@@ -71,6 +72,18 @@ img, media {
   text-align: center;
   padding: 0;
   margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.l-footer {
+  background: #C9E3EE;
+  margin: 20px auto 0;
+  position: absolute;
+  color: #0D1A21;
+  font-size: 13px;
+  text-align: center;
+  padding: 0;
+  bottom: 0;
+  width: 100%; }
 
 /* Main Menu */
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000032}}
