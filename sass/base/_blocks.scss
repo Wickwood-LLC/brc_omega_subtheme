@@ -1,0 +1,13 @@
+.l-main {
+	.l-region,
+	.messages-status,
+	article,
+	.tabs--primary,
+	.action-links {
+		@include block-styles;
+	}
+}
+
+.block {
+	@include block-styles;
+}

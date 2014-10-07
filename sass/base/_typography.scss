@@ -4,6 +4,17 @@
 //Setting the Vertical rhythm
 @include establish-baseline;
 
+//Links
+a, a:visited {
+	color: #4A91B5;
+	text-decoration: none;
+
+	&:hover {
+		color: #09C1E1;
+		text-decoration: underline;
+	}
+}
+
 .site-name {
 	text-align: center;	
 	font-family: $font-header;
@@ -57,4 +68,10 @@
 	font-size: $title-font-size;
 	font-weight: normal;
 	text-align: center;
+}
+
+.block__title {
+	color: $title-font-color;
+	text-align: center;
+	@include adjust-font-size-to(19px);
 }
