@@ -70,6 +70,21 @@ html {
 img, media {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_regions\.scss}line{font-family:\000032}}
+.l-main .l-region,
+.l-main .messages-status,
+.l-main article,
+.l-main .tabs--primary,
+.l-main .action-links {
+  background: #D7E7EF;
+  background: rgba(215, 231, 239, 0.85);
+  -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(125, 176, 202, 0.85);
+  padding: 7px;
+  margin: 10px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\000034}}
 .site-name {
   text-align: center; }
@@ -122,11 +137,17 @@ img, media {
     .site-slogan {
       font-size: 18px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000353}}
+.page-title {
+  color: #0F3C4D;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer {
   background: #C9E3EE;
   margin: 20px auto 0;
-  position: absolute;
   color: #0D1A21;
   font-size: 13px;
   text-align: center;
