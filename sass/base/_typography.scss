@@ -1,36 +1,38 @@
 //Import Google Font
 @import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
 
-.site-name {
-	text-align: center;
+//Setting the Vertical rhythm
+@include establish-baseline;
 
+.site-name {
+	text-align: center;	
+	font-family: $font-header;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 auto rhythm(1, 44px);
+	@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
+	@include adjust-font-size-to(44px);
+
+	@include breakpoint(320px){
+		@include adjust-font-size-to(56px);
+		margin: 0 auto rhythm(1, 56px);
+	}
+	@include breakpoint(480px){
+		@include adjust-font-size-to(68px);
+		margin: 0 auto rhythm(1, 68px);
+	}
 	@include breakpoint(960px){
-		margin: 0;
+		@include adjust-font-size-to(72px);
+		margin: 0 auto rhythm(1, 72px);
 	}
 
 	a {
-		font-family: $font-header;
-		font-size: 44px;
-		font-weight: bold;
 		text-decoration: none;
-		// line-height: 1.5;
-		padding: 0;
 		color: $font-header-color;
-		@include text-shadow(2.8px 2.8px 4px rgba(23, 23, 23, 0.82));
-
-		@include breakpoint(320px){
-			font-size: 56px;
-		}
-		@include breakpoint(480px){
-			font-size: 68px;
-		}
-		@include breakpoint(960px){
-			font-size: 72px;
-		}
 	}
 }
 .site-slogan {
-	font-size: 12px;
+	@include adjust-font-size-to(12px);
 	font-family: $font-slogan;
 	font-weight: normal;
 	color: $font-slogan-color;
@@ -40,13 +42,13 @@
 	margin: 0;
 
 	@include breakpoint(320px){
-		font-size: 14px;
+		@include adjust-font-size-to(14px);
 	}
 	@include breakpoint(480px){
-		font-size: 16px;
+		@include adjust-font-size-to(16px);
 	}
 	@include breakpoint(960px){
-		font-size: 18px;
+		@include adjust-font-size-to(18px);
 	}
 }
 
