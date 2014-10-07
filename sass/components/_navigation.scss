@@ -1,3 +1,37 @@
+/* Main Menu */
+#block-system-main-menu .menu {
+	@include display(flex);
+	@include flex-flow(row wrap);
+	@include justify-content(center);
+
+	li,
+	li.leaf,
+	li.expanded {
+		list-style: none;
+		margin-right: 1%;
+
+		a {
+			background: #4CA6FF;
+			border: 1px solid #BAC4CA;
+			padding: 0 17px;
+			margin: 0 auto;
+			display: block;
+			cursor: pointer;
+			text-decoration: none;
+			color: #FFFFFF;
+			line-height: 1.5;
+
+			&:hover {
+				background: #2491FF;
+			}
+			&.active {
+				background: #75BAFF;
+			}
+		}
+	}
+}
+
+
 /* Tabs Styles*/
 .tabs {
 	a {
@@ -13,17 +47,31 @@
 .tabs--primary {
   margin-bottom: 0em;
   border-bottom: none;
+
   a {
   	padding: 0em 0em;
 	}
 	&.links--inline {
 		li {
+			@include button(simple, #4294f0);
+			width: 100%;
+			border: 0;
+			border-radius: 0;
+			background-image: none;
+			box-shadow: none;
+
+			@include breakpoint(768px){
+				width: auto;
+				margin-bottom: 1em;
+				@include button(simple, #4294f0);
+			}
+
 			a {
 				color: #FFF;
+				font-weight: normal;
 				&:hover {color: #FFF;}
 				&:focus {color: #FFF;}
 			}
-			@include button(simple, #4294f0);
 		}
 	}
 }
