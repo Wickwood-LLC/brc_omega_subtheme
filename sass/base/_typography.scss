@@ -65,7 +65,7 @@ a, a:visited {
 
 .page-title {
 	color: $title-font-color;
-	font-size: $title-font-size;
+	@include adjust-font-size-to($title-font-size);
 	font-weight: normal;
 	text-align: center;
 }
