@@ -138,10 +138,10 @@ html {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     box-flex: 1;
-    -webkit-flex: 1 0px;
-    -moz-flex: 1 0px;
-    -ms-flex: 1 0px;
-    flex: 1 0px; }
+    -webkit-flex: 1 0 0px;
+    -moz-flex: 1 0 0px;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
