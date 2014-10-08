@@ -30,6 +30,10 @@
 	@include flex-flow(row wrap);
 
 	* {
-		@include flex(1 0 0px);
+		@include flex(1 100%);
+
+		@include breakpoint(600px){
+			@include flex(1 0px);
+		}
 	}
 }
