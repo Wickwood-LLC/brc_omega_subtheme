@@ -24,6 +24,12 @@
   padding: 7px;
   margin: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_blocks\.scss}line{font-family:\0000314}}
+#block-block-4 {
+  background: none;
+  border: 0;
+  box-shadow: none; }
+
 /**
  * 1. Provide background image to center and adjust to window size
  *
