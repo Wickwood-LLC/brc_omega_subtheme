@@ -208,6 +208,10 @@ a, a:visited {
   font-size: 0.8125em;
   line-height: 1.84615em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000383}}
+.l-footer a {
+  color: #386E8A; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer {
   background: #C9E3EE;

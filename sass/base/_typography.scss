@@ -79,3 +79,7 @@ a, a:visited {
 .l-footer p {
 	@include adjust-font-size-to(13px);
 }
+
+.l-footer a {
+	color: #386E8A;
+}
