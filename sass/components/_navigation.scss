@@ -1,4 +1,7 @@
 /* Main Menu */
+#block-system-main-menu {
+	@include block-styles;
+}
 #block-system-main-menu .menu {
 	@include display(flex);
 	@include flex-flow(row wrap);
