@@ -12,4 +12,20 @@
 
 .l-region--branding {
 	@include display(flex);
+	@include justify-content(center);
+	@include flex-flow(row wrap);
+
+	* {
+		@include flex(1 0px);
+	}
+}
+
+.l-region--sidebar-second {
+	@include display(flex);
+	@include justify-content(center);
+	@include flex-flow(row wrap);
+
+	* {
+		@include flex(1 0px);
+	}
 }
