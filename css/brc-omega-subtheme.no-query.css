@@ -28,7 +28,8 @@
 #block-block-4 {
   background: none;
   border: 0;
-  box-shadow: none; }
+  box-shadow: none;
+  margin-bottom: 0; }
 
 /**
  * 1. Provide background image to center and adjust to window size
@@ -145,6 +146,11 @@ a, a:visited {
   text-align: center;
   font-size: 1.1875em;
   line-height: 1.26316em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
+.l-footer p {
+  font-size: 0.8125em;
+  line-height: 1.84615em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 .l-footer {
