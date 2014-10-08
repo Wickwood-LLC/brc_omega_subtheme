@@ -70,6 +70,16 @@ html {
   -moz-flex-flow: row wrap;
   flex-flow: row wrap; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000313}}
+.-l-region--branding {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%; }
