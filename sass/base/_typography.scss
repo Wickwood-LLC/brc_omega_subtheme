@@ -75,3 +75,7 @@ a, a:visited {
 	text-align: center;
 	@include adjust-font-size-to(19px);
 }
+
+.l-footer p {
+	@include adjust-font-size-to(13px);
+}
