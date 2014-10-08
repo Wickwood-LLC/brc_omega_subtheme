@@ -26,6 +26,7 @@
 
 .l-region--sidebar-second {
 	@include display(flex);
+	display: flex;
 	@include justify-content(center);
 	@include flex-flow(row wrap);
 
