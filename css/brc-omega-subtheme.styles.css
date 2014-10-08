@@ -128,12 +128,22 @@ html {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     box-flex: 1;
-    -webkit-flex: 1 0px;
-    -moz-flex: 1 0px;
-    -ms-flex: 1 0px;
-    flex: 1 0px; }
+    -webkit-flex: 1 100%;
+    -moz-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%; }
+    @media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000318}}
+      .l-region--branding * {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
+        -webkit-flex: 1 0px;
+        -moz-flex: 1 0px;
+        -ms-flex: 1 0px;
+        flex: 1 0px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000327}}
 .l-region--sidebar-second {
   display: -webkit-box;
   display: -moz-box;
@@ -154,7 +164,7 @@ html {
   -webkit-flex-flow: row wrap;
   -moz-flex-flow: row wrap;
   flex-flow: row wrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/base\/_layout\.scss}line{font-family:\0000332}}
   .l-region--sidebar-second * {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
