@@ -92,10 +92,9 @@
       </div>
 
     </div>
-
+    <?php print render($page['navigation']); ?>
     <?php print render($page['branding']); ?>
     <?php print render($page['header']); ?>
-    <?php print render($page['navigation']); ?>
   </header>
 
   <div class="l-main">
