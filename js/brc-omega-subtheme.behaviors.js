@@ -57,4 +57,10 @@
     }
   };
 
+  Drupal.behaviors.brcResponsiveMenu = {
+    attach: function (context, settings) {
+      $( ".l-region--navigation" ).prepend( $( "#menu" ) );
+    }
+  };
+
 })(jQuery);
