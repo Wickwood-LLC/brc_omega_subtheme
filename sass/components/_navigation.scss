@@ -4,6 +4,15 @@
 	@include display(flex);
 	@include justify-content(center);
 
+	#superfish-1 {
+		margin: 1em 0;
+	}
+
+	li {
+		margin-right: 1em;
+		margin-left: 0;
+	}
+
 	a {
 		background: #4CA6FF;
 		border: 1px solid #BAC4CA;
