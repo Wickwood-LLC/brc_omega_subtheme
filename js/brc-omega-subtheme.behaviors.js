@@ -59,7 +59,7 @@
 
   Drupal.behaviors.titleRelocate = {
     attach: function (context, settings) {
-      $('.page-title').prepend('article.node--page');
+      $('article.node--page').prepend($( '.page-title' ));
     }
   };
 
