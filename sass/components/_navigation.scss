@@ -47,6 +47,14 @@
 	top: 0 !important		// Overrides the positioning made by the superfish module
 }
 
+#superfish-1-accordion {
+	display: none;
+
+	li {
+		float: none;
+	}
+}
+
 
 /* Tabs Styles*/
 .tabs {
