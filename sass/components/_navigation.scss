@@ -4,13 +4,17 @@
 	@include display(flex);
 	@include justify-content(center);
 
-	#rm-no-id, #rm-removed {
-		margin: 1em 0;
+	#rm-no-id {
+		@include display(flex);
+
 	}
 
-	li {
+	li,
+	li.expanded,
+	li.collapsed {
 		margin-right: 1em;
 		margin-left: 0;
+		list-style: none;
 	}
 
 	a {
