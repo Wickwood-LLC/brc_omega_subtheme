@@ -237,7 +237,7 @@ a, a:visited {
 
 /* Main Menu */
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000032}}
-#block-superfish-1 {
+#block-system-main-menu {
   background: none;
   border: 0px;
   box-shadow: none;
@@ -260,14 +260,14 @@ a, a:visited {
   justify-content: center;
   -ms-flex-pack: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
-  #block-superfish-1 #superfish-1 {
+  #block-system-main-menu #rm-no-id, #block-system-main-menu #rm-removed {
     margin: 1em 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000311}}
-  #block-superfish-1 li {
+  #block-system-main-menu li {
     margin-right: 1em;
     margin-left: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000316}}
-  #block-superfish-1 a {
+  #block-system-main-menu a {
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -287,28 +287,29 @@ a, a:visited {
     line-height: 28px;
     text-align: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000330}}
-    #block-superfish-1 a:hover {
+    #block-system-main-menu a:hover {
       background: #2491FF; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
-    #block-superfish-1 a.active {
+    #block-system-main-menu a.active {
       background: #75BAFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
-  #block-superfish-1 .rm-no-class {
-    top: 27px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000339}}
 .sf-sub-indicator {
   position: relative;
   margin: auto;
   right: -7px;
   top: 0 !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000346}}
 #superfish-1-accordion {
   display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000349}}
   #superfish-1-accordion li {
     float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000354}}
+.toggler {
+  background: #4CA6FF; }
 
 /* Tabs Styles*/
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/wamp\/www\/dev\/sites\/dev\.brc\/themes\/brc_omega_subtheme\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}

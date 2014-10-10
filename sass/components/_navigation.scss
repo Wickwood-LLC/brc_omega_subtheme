@@ -1,10 +1,10 @@
 /* Main Menu */
-#block-superfish-1 {
+#block-system-main-menu {
 	@include block-reset;
 	@include display(flex);
 	@include justify-content(center);
 
-	#superfish-1 {
+	#rm-no-id, #rm-removed {
 		margin: 1em 0;
 	}
 
@@ -34,10 +34,6 @@
 			background: #75BAFF;
 		}
 	}
-
-	.rm-no-class {
-		top: 27px;
-	}
 }
 
 .sf-sub-indicator {
@@ -53,6 +49,10 @@
 	li {
 		float: none;
 	}
+}
+
+.toggler {
+	background: #4CA6FF;
 }
 
 
