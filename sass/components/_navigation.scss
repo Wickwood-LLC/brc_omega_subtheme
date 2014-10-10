@@ -36,22 +36,11 @@
 	}
 }
 
-.sf-sub-indicator {
-	position: relative;
-	margin: auto;
-	right: -7px;
-	top: 0 !important		// Overrides the positioning made by the superfish module
+.responsive-menus.responsified .responsive-menus-simple {
+	background: #4CA6FF;
 }
 
-#superfish-1-accordion {
-	display: none;
-
-	li {
-		float: none;
-	}
-}
-
-.toggler {
+.responsive-menus.responsified span.toggler {
 	background: #4CA6FF;
 }
 
