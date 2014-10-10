@@ -41,10 +41,3 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
-// @include breakpoint($phone_portrait) {
-//     @extend html{
-//       @include background(image-url("page-phone-portrait.jpg"));
-//     }
-//   }
-// }
