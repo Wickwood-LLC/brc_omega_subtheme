@@ -57,4 +57,10 @@
     }
   };
 
+  Drupal.behaviors.titleRelocate = {
+    attach: function (context, settings) {
+      $('.page-title').prepend('article.node--page');
+    }
+  };
+
 })(jQuery);
